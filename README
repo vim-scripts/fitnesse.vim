@@ -1,0 +1,23 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2651
+
+fitnesse.vim is a syntax file (and eventually some filetype specific functions) 
+for editing FitNesse tests using Vim.  It was created to make it easier to work
+with FitNesse files.  It works great in conjunction with "It's All Text" a 
+plugin for FireFox (found at https://addons.mozilla.org/en-US/firefox/addon/4125). 
+
+FitNesse is a collaborative testing tool that uses Wiki markup to create test 
+scripts as web pages.  See http://fitnesse.org for more information.
+
+Syntax coloring supports:
+      * Numerous keywords in Slim and FitNesse are supported:
+         scenario, script, Query:, start, check, reject, show, Comment, comment, 
+         !see, !include, !See, null, !define, !include
+      * Simple collapsible sections (with folding enabled)  !** *!, !**> *!
+      * Table cell delimiter "|"
+      * Cell contents
+      * Incomplete cell is error
+      * !style_(class) 
+      * Strings in Quotes
+      * Scenario variables @parametername
+      * Symbols $symbolname
+      * Simple WikiWord support
